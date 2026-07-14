@@ -1,0 +1,33 @@
+{
+  "name": "pi-provider-manager",
+  "version": "1.0.0",
+  "description": "Interactive manager for custom OpenAI-compatible providers in pi: switch models, add/edit/test endpoints, set defaults.",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "provider",
+    "openai-compatible",
+    "models"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangnan1224/pi-provider-manager.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jiangnan1224/pi-provider-manager/issues"
+  },
+  "homepage": "https://github.com/jiangnan1224/pi-provider-manager#readme",
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ]
+}
